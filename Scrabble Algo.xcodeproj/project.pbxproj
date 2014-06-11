@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659ACB661948E7A100907DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB651948E7A100907DDA /* Foundation.framework */; };
+		659ACB681948E7A100907DDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB671948E7A100907DDA /* CoreGraphics.framework */; };
+		659ACB6A1948E7A100907DDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB691948E7A100907DDA /* UIKit.framework */; };
+		659ACB701948E7A100907DDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659ACB6E1948E7A100907DDA /* InfoPlist.strings */; };
+		659ACB721948E7A100907DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659ACB711948E7A100907DDA /* main.m */; };
+		659ACB761948E7A100907DDA /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659ACB751948E7A100907DDA /* DSAppDelegate.m */; };
+		659ACB781948E7A100907DDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659ACB771948E7A100907DDA /* Images.xcassets */; };
+		659ACB7F1948E7A100907DDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB7E1948E7A100907DDA /* XCTest.framework */; };
+		659ACB801948E7A100907DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB651948E7A100907DDA /* Foundation.framework */; };
+		659ACB811948E7A100907DDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB691948E7A100907DDA /* UIKit.framework */; };
+		659ACB891948E7A100907DDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659ACB871948E7A100907DDA /* InfoPlist.strings */; };
+		659ACB8B1948E7A100907DDA /* Scrabble_AlgoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659ACB8A1948E7A100907DDA /* Scrabble_AlgoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		659ACB821948E7A100907DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659ACB5A1948E7A100907DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659ACB611948E7A100907DDA;
+			remoteInfo = "Scrabble Algo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		659ACB621948E7A100907DDA /* Scrabble Algo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrabble Algo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659ACB651948E7A100907DDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		659ACB671948E7A100907DDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		659ACB691948E7A100907DDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		659ACB6D1948E7A100907DDA /* Scrabble Algo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scrabble Algo-Info.plist"; sourceTree = "<group>"; };
+		659ACB6F1948E7A100907DDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		659ACB711948E7A100907DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		659ACB731948E7A100907DDA /* Scrabble Algo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scrabble Algo-Prefix.pch"; sourceTree = "<group>"; };
+		659ACB741948E7A100907DDA /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		659ACB751948E7A100907DDA /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		659ACB771948E7A100907DDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		659ACB7D1948E7A100907DDA /* Scrabble AlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrabble AlgoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659ACB7E1948E7A100907DDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		659ACB861948E7A100907DDA /* Scrabble AlgoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scrabble AlgoTests-Info.plist"; sourceTree = "<group>"; };
+		659ACB881948E7A100907DDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		659ACB8A1948E7A100907DDA /* Scrabble_AlgoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scrabble_AlgoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659ACB5F1948E7A100907DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659ACB681948E7A100907DDA /* CoreGraphics.framework in Frameworks */,
+				659ACB6A1948E7A100907DDA /* UIKit.framework in Frameworks */,
+				659ACB661948E7A100907DDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659ACB7A1948E7A100907DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659ACB7F1948E7A100907DDA /* XCTest.framework in Frameworks */,
+				659ACB811948E7A100907DDA /* UIKit.framework in Frameworks */,
+				659ACB801948E7A100907DDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659ACB591948E7A100907DDA = {
+			isa = PBXGroup;
+			children = (
+				659ACB6B1948E7A100907DDA /* Scrabble Algo */,
+				659ACB841948E7A100907DDA /* Scrabble AlgoTests */,
+				659ACB641948E7A100907DDA /* Frameworks */,
+				659ACB631948E7A100907DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659ACB631948E7A100907DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659ACB621948E7A100907DDA /* Scrabble Algo.app */,
+				659ACB7D1948E7A100907DDA /* Scrabble AlgoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659ACB641948E7A100907DDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659ACB651948E7A100907DDA /* Foundation.framework */,
+				659ACB671948E7A100907DDA /* CoreGraphics.framework */,
+				659ACB691948E7A100907DDA /* UIKit.framework */,
+				659ACB7E1948E7A100907DDA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659ACB6B1948E7A100907DDA /* Scrabble Algo */ = {
+			isa = PBXGroup;
+			children = (
+				659ACB741948E7A100907DDA /* DSAppDelegate.h */,
+				659ACB751948E7A100907DDA /* DSAppDelegate.m */,
+				659ACB771948E7A100907DDA /* Images.xcassets */,
+				659ACB6C1948E7A100907DDA /* Supporting Files */,
+			);
+			path = "Scrabble Algo";
+			sourceTree = "<group>";
+		};
+		659ACB6C1948E7A100907DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				659ACB6D1948E7A100907DDA /* Scrabble Algo-Info.plist */,
+				659ACB6E1948E7A100907DDA /* InfoPlist.strings */,
+				659ACB711948E7A100907DDA /* main.m */,
+				659ACB731948E7A100907DDA /* Scrabble Algo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		659ACB841948E7A100907DDA /* Scrabble AlgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				659ACB8A1948E7A100907DDA /* Scrabble_AlgoTests.m */,
+				659ACB851948E7A100907DDA /* Supporting Files */,
+			);
+			path = "Scrabble AlgoTests";
+			sourceTree = "<group>";
+		};
+		659ACB851948E7A100907DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				659ACB861948E7A100907DDA /* Scrabble AlgoTests-Info.plist */,
+				659ACB871948E7A100907DDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659ACB611948E7A100907DDA /* Scrabble Algo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659ACB8E1948E7A100907DDA /* Build configuration list for PBXNativeTarget "Scrabble Algo" */;
+			buildPhases = (
+				659ACB5E1948E7A100907DDA /* Sources */,
+				659ACB5F1948E7A100907DDA /* Frameworks */,
+				659ACB601948E7A100907DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scrabble Algo";
+			productName = "Scrabble Algo";
+			productReference = 659ACB621948E7A100907DDA /* Scrabble Algo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		659ACB7C1948E7A100907DDA /* Scrabble AlgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659ACB911948E7A100907DDA /* Build configuration list for PBXNativeTarget "Scrabble AlgoTests" */;
+			buildPhases = (
+				659ACB791948E7A100907DDA /* Sources */,
+				659ACB7A1948E7A100907DDA /* Frameworks */,
+				659ACB7B1948E7A100907DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659ACB831948E7A100907DDA /* PBXTargetDependency */,
+			);
+			name = "Scrabble AlgoTests";
+			productName = "Scrabble AlgoTests";
+			productReference = 659ACB7D1948E7A100907DDA /* Scrabble AlgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659ACB5A1948E7A100907DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Sun";
+				TargetAttributes = {
+					659ACB7C1948E7A100907DDA = {
+						TestTargetID = 659ACB611948E7A100907DDA;
+					};
+				};
+			};
+			buildConfigurationList = 659ACB5D1948E7A100907DDA /* Build configuration list for PBXProject "Scrabble Algo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 659ACB591948E7A100907DDA;
+			productRefGroup = 659ACB631948E7A100907DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659ACB611948E7A100907DDA /* Scrabble Algo */,
+				659ACB7C1948E7A100907DDA /* Scrabble AlgoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659ACB601948E7A100907DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659ACB701948E7A100907DDA /* InfoPlist.strings in Resources */,
+				659ACB781948E7A100907DDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659ACB7B1948E7A100907DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659ACB891948E7A100907DDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659ACB5E1948E7A100907DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659ACB721948E7A100907DDA /* main.m in Sources */,
+				659ACB761948E7A100907DDA /* DSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659ACB791948E7A100907DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659ACB8B1948E7A100907DDA /* Scrabble_AlgoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659ACB831948E7A100907DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659ACB611948E7A100907DDA /* Scrabble Algo */;
+			targetProxy = 659ACB821948E7A100907DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		659ACB6E1948E7A100907DDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659ACB6F1948E7A100907DDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		659ACB871948E7A100907DDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659ACB881948E7A100907DDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		659ACB8C1948E7A100907DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		659ACB8D1948E7A100907DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659ACB8F1948E7A100907DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrabble Algo/Scrabble Algo-Prefix.pch";
+				INFOPLIST_FILE = "Scrabble Algo/Scrabble Algo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		659ACB901948E7A100907DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrabble Algo/Scrabble Algo-Prefix.pch";
+				INFOPLIST_FILE = "Scrabble Algo/Scrabble Algo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		659ACB921948E7A100907DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scrabble Algo.app/Scrabble Algo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrabble Algo/Scrabble Algo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scrabble AlgoTests/Scrabble AlgoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		659ACB931948E7A100907DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scrabble Algo.app/Scrabble Algo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrabble Algo/Scrabble Algo-Prefix.pch";
+				INFOPLIST_FILE = "Scrabble AlgoTests/Scrabble AlgoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659ACB5D1948E7A100907DDA /* Build configuration list for PBXProject "Scrabble Algo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659ACB8C1948E7A100907DDA /* Debug */,
+				659ACB8D1948E7A100907DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659ACB8E1948E7A100907DDA /* Build configuration list for PBXNativeTarget "Scrabble Algo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659ACB8F1948E7A100907DDA /* Debug */,
+				659ACB901948E7A100907DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		659ACB911948E7A100907DDA /* Build configuration list for PBXNativeTarget "Scrabble AlgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659ACB921948E7A100907DDA /* Debug */,
+				659ACB931948E7A100907DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659ACB5A1948E7A100907DDA /* Project object */;
+}
