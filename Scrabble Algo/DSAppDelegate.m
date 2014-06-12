@@ -7,6 +7,7 @@
 //
 
 #import "DSAppDelegate.h"
+#import "DSAnagram.h"
 
 @implementation DSAppDelegate
 
@@ -16,8 +17,57 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    DSAnagram *scrabbleHelper = [[DSAnagram alloc] init];
+    [scrabbleHelper anagramFinder:@"apple"];
+    NSLog(@"%@", scrabbleHelper.allWords);
     return YES;
+    
 }
+
+
+
+
+
+
+//-(NSMutableArray *)allPermutationRecursion: (NSArray *)originalLeftArray andNewArray:(NSArray *)originalRightArray withAllWords:(NSMutableArray *)allWords
+//{
+//    
+//    NSMutableArray *leftArray = [NSMutableArray arrayWithArray:originalLeftArray];
+//    NSMutableArray *rightArray = [NSMutableArray arrayWithArray:originalRightArray];
+////    NSLog(@"%@%@",leftArray, rightArray);
+//    NSInteger counter = 0;
+//    if (!([leftArray count] == 0))
+//    {
+//        
+//        while (counter <[leftArray count])
+//        {
+//            NSLog(@"LAC: %d",[leftArray count]);
+//            //NSLog(@"The Left Array is: %@  |   The Right Array is %@", [leftArray componentsJoinedByString:@""], [rightArray componentsJoinedByString:@""]);
+//             NSLog(@"counter:%d", counter);
+//             NSLog(@"(%@) | (%@)", [leftArray componentsJoinedByString:@""], [rightArray componentsJoinedByString:@""]);
+//            [rightArray addObject:leftArray[counter]];
+//            [leftArray removeObject:leftArray[counter]];
+//            [self allPermutationRecursion:leftArray andNewArray:rightArray withAllWords:allWords] ;
+//            leftArray = originalLeftArray;
+//            rightArray = originalRightArray;
+//            counter ++;
+//            NSLog(@"counter:%d", counter);
+//        }
+//    }
+//    else
+//    {
+//        NSLog(@"LAC: %d",[leftArray count]);
+//
+//        NSString *permutation = [NSString stringWithFormat:@"%@",[originalRightArray componentsJoinedByString:@""]];
+//        NSLog(@"(%@)",permutation);
+//
+//        [allWords addObject:permutation];
+//        
+//    }
+//    return allWords;
+//}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
