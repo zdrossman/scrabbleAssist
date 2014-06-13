@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		319EB379194A3C2100924F5A /* DSBagOfLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = 319EB378194A3C2100924F5A /* DSBagOfLetters.m */; };
-		319EB37C194A3CC800924F5A /* DSRack.m in Sources */ = {isa = PBXBuildFile; fileRef = 319EB37B194A3CC800924F5A /* DSRack.m */; };
-		31A374C8194B3952008AE473 /* DSScrabbleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A374C7194B3952008AE473 /* DSScrabbleGame.m */; };
-		31A374CB194B395F008AE473 /* DSScrabbleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A374CA194B395F008AE473 /* DSScrabbleBoard.m */; };
+		6578EC63194B447400283CD7 /* DSAnagramFromWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578EC62194B447400283CD7 /* DSAnagramFromWord.m */; };
 		6588F425194A2DA500B9AD77 /* DSAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588F424194A2DA500B9AD77 /* DSAnagram.m */; };
 		659ACB661948E7A100907DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB651948E7A100907DDA /* Foundation.framework */; };
 		659ACB681948E7A100907DDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB671948E7A100907DDA /* CoreGraphics.framework */; };
@@ -37,14 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		319EB377194A3C2100924F5A /* DSBagOfLetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBagOfLetters.h; sourceTree = "<group>"; };
-		319EB378194A3C2100924F5A /* DSBagOfLetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBagOfLetters.m; sourceTree = "<group>"; };
-		319EB37A194A3CC800924F5A /* DSRack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRack.h; sourceTree = "<group>"; };
-		319EB37B194A3CC800924F5A /* DSRack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRack.m; sourceTree = "<group>"; };
-		31A374C6194B3952008AE473 /* DSScrabbleGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScrabbleGame.h; sourceTree = "<group>"; };
-		31A374C7194B3952008AE473 /* DSScrabbleGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScrabbleGame.m; sourceTree = "<group>"; };
-		31A374C9194B395F008AE473 /* DSScrabbleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScrabbleBoard.h; sourceTree = "<group>"; };
-		31A374CA194B395F008AE473 /* DSScrabbleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScrabbleBoard.m; sourceTree = "<group>"; };
+		6578EC61194B447400283CD7 /* DSAnagramFromWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAnagramFromWord.h; sourceTree = "<group>"; };
+		6578EC62194B447400283CD7 /* DSAnagramFromWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAnagramFromWord.m; sourceTree = "<group>"; };
 		6588F423194A2DA500B9AD77 /* DSAnagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAnagram.h; sourceTree = "<group>"; };
 		6588F424194A2DA500B9AD77 /* DSAnagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAnagram.m; sourceTree = "<group>"; };
 		659ACB621948E7A100907DDA /* Scrabble Algo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrabble Algo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,18 +113,12 @@
 		659ACB6B1948E7A100907DDA /* Scrabble Algo */ = {
 			isa = PBXGroup;
 			children = (
-				319EB377194A3C2100924F5A /* DSBagOfLetters.h */,
-				319EB378194A3C2100924F5A /* DSBagOfLetters.m */,
 				659ACB741948E7A100907DDA /* DSAppDelegate.h */,
-				31A374C6194B3952008AE473 /* DSScrabbleGame.h */,
-				31A374C7194B3952008AE473 /* DSScrabbleGame.m */,
-				31A374C9194B395F008AE473 /* DSScrabbleBoard.h */,
-				31A374CA194B395F008AE473 /* DSScrabbleBoard.m */,
 				659ACB751948E7A100907DDA /* DSAppDelegate.m */,
 				6588F423194A2DA500B9AD77 /* DSAnagram.h */,
 				6588F424194A2DA500B9AD77 /* DSAnagram.m */,
-				319EB37A194A3CC800924F5A /* DSRack.h */,
-				319EB37B194A3CC800924F5A /* DSRack.m */,
+				6578EC61194B447400283CD7 /* DSAnagramFromWord.h */,
+				6578EC62194B447400283CD7 /* DSAnagramFromWord.m */,
 				659ACB771948E7A100907DDA /* Images.xcassets */,
 				659ACB6C1948E7A100907DDA /* Supporting Files */,
 			);
@@ -265,13 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A374CB194B395F008AE473 /* DSScrabbleBoard.m in Sources */,
+				6578EC63194B447400283CD7 /* DSAnagramFromWord.m in Sources */,
 				6588F425194A2DA500B9AD77 /* DSAnagram.m in Sources */,
 				659ACB721948E7A100907DDA /* main.m in Sources */,
-				319EB37C194A3CC800924F5A /* DSRack.m in Sources */,
 				659ACB761948E7A100907DDA /* DSAppDelegate.m in Sources */,
-				31A374C8194B3952008AE473 /* DSScrabbleGame.m in Sources */,
-				319EB379194A3C2100924F5A /* DSBagOfLetters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

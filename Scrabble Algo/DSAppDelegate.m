@@ -8,6 +8,8 @@
 
 #import "DSAppDelegate.h"
 #import "DSScrabbleGame.h"
+#import "DSAnagram.h"
+#import "DSAnagramFromWord.h"
 
 @implementation DSAppDelegate
 
@@ -18,8 +20,18 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    //Test 2
     DSScrabbleGame *scrabbleGame = [[DSScrabbleGame alloc] init];
     [scrabbleGame startNewGame];
+
+    //Test 1
+    DSAnagram *scrabbleHelper = [[DSAnagram alloc] init];
+    [scrabbleHelper anagramFinder:@"sexed"];
+    NSLog(@"Here are all your possible permutations: %@", scrabbleHelper.allWords);
+    [scrabbleHelper sortedScoreList:scrabbleHelper.allWords];
+    
+    NSLog(@"Here is your list sorted by the highest points: %@", scrabbleHelper.sortedWords);
+
     return YES;
     
 }
