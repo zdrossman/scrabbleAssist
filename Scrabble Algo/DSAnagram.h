@@ -14,5 +14,4 @@
 
 -(void)anagramFinder: (NSString *)word;
 
-
 @end

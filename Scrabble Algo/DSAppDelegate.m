@@ -7,7 +7,7 @@
 //
 
 #import "DSAppDelegate.h"
-#import "DSAnagram.h"
+#import "DSScrabbleGame.h"
 
 @implementation DSAppDelegate
 
@@ -18,9 +18,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    DSAnagram *scrabbleHelper = [[DSAnagram alloc] init];
-    [scrabbleHelper anagramFinder:@"apple"];
-    NSLog(@"%@", scrabbleHelper.allWords);
+    DSScrabbleGame *scrabbleGame = [[DSScrabbleGame alloc] init];
+    [scrabbleGame startNewGame];
     return YES;
     
 }

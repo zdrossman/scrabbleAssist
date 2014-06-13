@@ -27,15 +27,15 @@
         NSString *character = [NSString stringWithFormat:@"%C",[word characterAtIndex:i]];
         [lettersArray addObject:character];
     }
-    NSMutableArray *allWords = [[NSMutableArray alloc] init];
-    NSMutableArray *sideArray = [[NSMutableArray alloc] init];
+    NSMutableArray *leftArray = [[NSMutableArray alloc] initWithArray:lettersArray];
+    NSMutableArray *rightArray = [[NSMutableArray alloc] init];
     
-    [self allPermutationRecursion:lettersArray andNewArray:sideArray withAllWords:allWords];
+    [self allPermutationRecursion:leftArray andNewArray:rightArray];
 
 }
 
 
--(void)allPermutationRecursion: (NSArray *)originalLeftArray andNewArray:(NSArray *)originalRightArray withAllWords:(NSMutableArray *)allWords
+-(void)allPermutationRecursion: (NSArray *)originalLeftArray andNewArray:(NSArray *)originalRightArray
 {
     
     NSMutableArray *leftArray = [NSMutableArray arrayWithArray:originalLeftArray];
@@ -53,7 +53,7 @@
             NSString *permutation = [NSString stringWithFormat:@"%@",[rightArray componentsJoinedByString:@""]];
             [self addWordToAllWordsArray:permutation];
             
-            [self allPermutationRecursion:leftArray andNewArray:rightArray withAllWords:allWords] ;
+            [self allPermutationRecursion:leftArray andNewArray:rightArray] ;
             leftArray = [originalLeftArray mutableCopy];
             rightArray = [originalRightArray mutableCopy];
         }

@@ -28,34 +28,6 @@
 //
 //}
 
-- (NSArray *)bagOfLetters
-{
-    if (!_bagOfLetters)
-    {
-        
-        NSMutableArray *mutableBagOfLetters = [[NSMutableArray alloc] initWithCapacity:100];
-        
-        NSArray *alphabet = @[@"a",@"b",@"c",@"d",@"e",@"f",@"g",@"h",@"i",@"j",@"k",@"l",@"m",@"n",@"o",@"p",@"q",@"r",@"s",@"t",@"u",@"v",@"w",@"x",@"y",@"z",@" "];
-        
-        NSArray *frequencies = @[@9,@2,@2,@4,@12,@2,@3,@2,@9,@1,@1,@4,@2,@6,@8,@2,@1,@6,@4,@6,@4,@2,@2,@1,@2,@1,@2];
-        
-        for (NSInteger counter = 0; counter <= 26; counter++)
-        {
-            NSInteger numberOfLetter = 0;
-            
-            while (numberOfLetter < [frequencies[counter] integerValue])
-            {
-                [mutableBagOfLetters addObject:alphabet[counter]];
-                numberOfLetter++;
-            }
-            
-        }
-        
-        _bagOfLetters = [[NSMutableArray alloc] initWithArray:mutableBagOfLetters];
-    }
-    
-    return _bagOfLetters;
-}
 //- (NSNumber *)numOfRemainingLettersInBag
 //{
 //    return @([[self.remainingLetters allKeysForObject:@1] count]);
@@ -71,26 +43,6 @@
 }
 
 
-- (NSArray *)generateRandomCharacterArray
-{
-    NSString *randomCharacters = @"";
-    
-    NSMutableArray *randomStringElements = [[NSMutableArray alloc] init];
-    
-    NSInteger counter = 0;
-    
-    while (counter < hand)
-    {
-        NSInteger random = ((float)arc4random() / ARC4RANDOM_MAX) * 100;
-        
-        if (![randomStringElements containsObject:[self.bagOfLetters objectAtIndex:random]])
-            {
-                [randomStringElements addObject:[self.bagOfLetters objectAtIndex:random]];
-                counter++;
-            }
-    }
-    return randomStringElements;
-}
 
 - (NSMutableArray *)solveAnagram;
 {
