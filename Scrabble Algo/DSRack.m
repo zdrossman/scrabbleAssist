@@ -32,7 +32,7 @@
 {
     NSInteger counter = [self.currentLettersInRack count];
     
-    while (counter <= hand)
+    while (counter < hand)
     {
         NSInteger random = ((float)arc4random() / ARC4RANDOM_MAX) * 100;
         

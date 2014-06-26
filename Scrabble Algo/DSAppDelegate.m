@@ -20,11 +20,11 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    //Test 2
+    //Test 1
     DSScrabbleGame *scrabbleGame = [[DSScrabbleGame alloc] init];
     [scrabbleGame startNewGame];
 
-    //Test 1
+    //Test 2
     DSAnagram *scrabbleHelper = [[DSAnagram alloc] init];
     [scrabbleHelper anagramFinder:@"sexed"];
     NSLog(@"Here are all your possible permutations: %@", scrabbleHelper.allWords);

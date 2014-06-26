@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D1F77B194BA9100055F1C3 /* DSBagOfLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D1F774194BA9100055F1C3 /* DSBagOfLetters.m */; };
+		31D1F77C194BA9100055F1C3 /* DSRack.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D1F776194BA9100055F1C3 /* DSRack.m */; };
+		31D1F77D194BA9100055F1C3 /* DSScrabbleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D1F778194BA9100055F1C3 /* DSScrabbleBoard.m */; };
+		31D1F77E194BA9100055F1C3 /* DSScrabbleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D1F77A194BA9100055F1C3 /* DSScrabbleGame.m */; };
 		6578EC63194B447400283CD7 /* DSAnagramFromWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578EC62194B447400283CD7 /* DSAnagramFromWord.m */; };
 		6588F425194A2DA500B9AD77 /* DSAnagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588F424194A2DA500B9AD77 /* DSAnagram.m */; };
 		659ACB661948E7A100907DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659ACB651948E7A100907DDA /* Foundation.framework */; };
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D1F773194BA9100055F1C3 /* DSBagOfLetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBagOfLetters.h; sourceTree = "<group>"; };
+		31D1F774194BA9100055F1C3 /* DSBagOfLetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBagOfLetters.m; sourceTree = "<group>"; };
+		31D1F775194BA9100055F1C3 /* DSRack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRack.h; sourceTree = "<group>"; };
+		31D1F776194BA9100055F1C3 /* DSRack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRack.m; sourceTree = "<group>"; };
+		31D1F777194BA9100055F1C3 /* DSScrabbleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScrabbleBoard.h; sourceTree = "<group>"; };
+		31D1F778194BA9100055F1C3 /* DSScrabbleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScrabbleBoard.m; sourceTree = "<group>"; };
+		31D1F779194BA9100055F1C3 /* DSScrabbleGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScrabbleGame.h; sourceTree = "<group>"; };
+		31D1F77A194BA9100055F1C3 /* DSScrabbleGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScrabbleGame.m; sourceTree = "<group>"; };
 		6578EC61194B447400283CD7 /* DSAnagramFromWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAnagramFromWord.h; sourceTree = "<group>"; };
 		6578EC62194B447400283CD7 /* DSAnagramFromWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAnagramFromWord.m; sourceTree = "<group>"; };
 		6588F423194A2DA500B9AD77 /* DSAnagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAnagram.h; sourceTree = "<group>"; };
@@ -117,6 +129,14 @@
 				659ACB751948E7A100907DDA /* DSAppDelegate.m */,
 				6588F423194A2DA500B9AD77 /* DSAnagram.h */,
 				6588F424194A2DA500B9AD77 /* DSAnagram.m */,
+				31D1F773194BA9100055F1C3 /* DSBagOfLetters.h */,
+				31D1F774194BA9100055F1C3 /* DSBagOfLetters.m */,
+				31D1F775194BA9100055F1C3 /* DSRack.h */,
+				31D1F776194BA9100055F1C3 /* DSRack.m */,
+				31D1F777194BA9100055F1C3 /* DSScrabbleBoard.h */,
+				31D1F778194BA9100055F1C3 /* DSScrabbleBoard.m */,
+				31D1F779194BA9100055F1C3 /* DSScrabbleGame.h */,
+				31D1F77A194BA9100055F1C3 /* DSScrabbleGame.m */,
 				6578EC61194B447400283CD7 /* DSAnagramFromWord.h */,
 				6578EC62194B447400283CD7 /* DSAnagramFromWord.m */,
 				659ACB771948E7A100907DDA /* Images.xcassets */,
@@ -252,8 +272,12 @@
 			files = (
 				6578EC63194B447400283CD7 /* DSAnagramFromWord.m in Sources */,
 				6588F425194A2DA500B9AD77 /* DSAnagram.m in Sources */,
+				31D1F77E194BA9100055F1C3 /* DSScrabbleGame.m in Sources */,
+				31D1F77D194BA9100055F1C3 /* DSScrabbleBoard.m in Sources */,
 				659ACB721948E7A100907DDA /* main.m in Sources */,
+				31D1F77C194BA9100055F1C3 /* DSRack.m in Sources */,
 				659ACB761948E7A100907DDA /* DSAppDelegate.m in Sources */,
+				31D1F77B194BA9100055F1C3 /* DSBagOfLetters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
