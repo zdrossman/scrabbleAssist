@@ -79,7 +79,7 @@
 }
 
 
--(void)allPermutationRecursion: (NSArray *)originalLeftArray andNewArray:(NSArray *)originalRightArray
+-(void)allPermutationRecursion: (NSMutableArray *)originalLeftArray andNewArray:(NSMutableArray *)originalRightArray
 {
     
     NSMutableArray *leftArray = [NSMutableArray arrayWithArray:originalLeftArray];
@@ -88,9 +88,10 @@
     if (!([leftArray count] == 0))
     {
         [self addWordToAllWordsArray:[leftArray componentsJoinedByString:(@"")]];
-        for (NSString *character in originalLeftArray)
+        while ([leftArray count] > 0)
         {
-        
+
+            NSString *character = [leftArray firstObject];
             [rightArray addObject:character];
             [leftArray removeObject:character];
             
@@ -98,8 +99,8 @@
             [self addWordToAllWordsArray:permutation];
             
             [self allPermutationRecursion:leftArray andNewArray:rightArray] ;
-            leftArray = [originalLeftArray mutableCopy];
-            rightArray = [originalRightArray mutableCopy];
+            leftArray = originalLeftArray;
+            rightArray = originalRightArray;
         }
     }
 }

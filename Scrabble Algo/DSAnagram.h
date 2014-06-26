@@ -18,6 +18,6 @@
 
 -(DSAnagramFromWord *) createScoredWord: (NSString *)anagram;
 -(void)sortedScoreList: (NSArray *)allAnagrams;
--(void)allPermutationRecursion: (NSArray *)originalLeftArray andNewArray:(NSArray *)originalRightArray;
+-(void)allPermutationRecursion: (NSMutableArray *)originalLeftArray andNewArray:(NSMutableArray *)originalRightArray;
 
 @end
